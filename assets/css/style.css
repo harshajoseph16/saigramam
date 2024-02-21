@@ -363,7 +363,7 @@ nav::after {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    left: 0;
+    left: 50px;
     right: 0;
     top: 0;
   
