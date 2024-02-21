@@ -44,7 +44,7 @@ h4 {
   background-color: #ff7244;
   width: 100%;
   color: white;
-  padding: 6px 0;
+  padding:10px 0;
 }
 .top-header .right {
   display: flex;
@@ -55,13 +55,11 @@ h4 {
   display: flex;
   justify-content: space-around;
   gap: 10px;
+  align-items: center;
 }
-.top-header .right .text .fab,
-.far,
-.fas {
+.top-header .right .text .fab, .far,.fas {
   font-weight: 400;
-  font-size: 12px;
-  padding-top: 6px;
+  font-size: 14px !important;
 }
 
 #banner {
@@ -229,7 +227,7 @@ nav::after {
   text-transform: capitalize;
   display: block;
   padding: 1em 6em 1em 2em;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .site-nav a:hover {
@@ -288,9 +286,9 @@ nav::after {
   position: relative;
   background-color: #b0de7c;
   z-index: 1;
-  width: 190px;
+  width: 180px;
   display: inline-block;
-  padding: 11px 21px;
+  padding: 6px 0px;
   border-radius: 3px;
   text-align: center;
   color: #000;
@@ -342,7 +340,9 @@ nav::after {
 
 
 
-
+.award-left h2 {
+  text-transform: capitalize;
+}
 
 
 
@@ -352,7 +352,7 @@ nav::after {
 
 .history-left {
   background-color: #f6eff3;
-  height: 62%;
+  height: 80vh;
   width: 25%;
   display: flex;
   justify-content: center;
@@ -390,7 +390,7 @@ nav::after {
 
 }
 .vertical-text h1 {
-  font-size: 70px !important;
+  font-size: 60px !important;
   -webkit-text-stroke: 1px #a5a5a536;
   -webkit-text-fill-color: transparent;
 }
@@ -705,7 +705,7 @@ nav::after {
 }
 
 .round {
-  width: 70px;
+  width: 50px;
   border-radius: 100%;
   text-align: center;
   align-items: center;
@@ -1037,18 +1037,18 @@ svg text {
 }
 
 
-.fixed-gplus{
+.fixed-whatsapp{
  background-color: #00AF54;
 
 }
 
-.fixed-linkedin{
- background-color: #FFC41E;
+.fixed-envelope{
+ background-color:#EA6E52
 
 }
 
-.fixed-instagrem{
- background-color: #ED2B29;
+.fixed-phone{
+ background-color: #BA7C9E;
 
 }
 
