@@ -494,9 +494,7 @@ nav::after {
 }
 .messege-round {
   border-radius: 50%;
-  border: solid 2px #fff;
   border-radius: 71%;
-  border: solid 7px #fff;
   width: 70%;
   float: right;
 }
@@ -1252,5 +1250,9 @@ svg text {
 }
 .fonder-quots img {
   width: 50%;
+}
+.fonder-quots {
+
+  left: 60px;
 }
 }
