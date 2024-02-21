@@ -109,7 +109,7 @@ h4 {
   background-color: #ff7244;
   z-index: 1;
 
-  width: 190px;
+  width: 180px;
   display: inline-block;
   padding: 11px 21px;
   border-radius: 3px;
@@ -288,13 +288,17 @@ nav::after {
   z-index: 1;
   width: 180px;
   display: inline-block;
-  padding: 6px 0px;
+  padding: 11px 21px;
   border-radius: 3px;
   text-align: center;
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
   border: solid #b0de7c;
+}
+.btng-donate {
+  width: 180px;
+  padding: 7px 0;
 }
 
 .btng.active,
@@ -303,7 +307,14 @@ nav::after {
   box-shadow: none;
   background-color: #fff;
   transition: 0.6s;
-
+  color: #000;
+}
+.btndn.active,
+.btndn:focus,
+.btndn:hover {
+  box-shadow: none;
+  background-color: #fff;
+  transition: 0.6s;
   color: #000;
 }
 
@@ -342,6 +353,7 @@ nav::after {
 
 .award-left h2 {
   text-transform: capitalize;
+  font-weight: bold;
 }
 
 
@@ -724,6 +736,7 @@ nav::after {
   flex-direction: row;
   gap: 10px;
   justify-content: space-between;
+  align-items: center;
 }
 .award-wrap {
   display: flex;
@@ -857,7 +870,7 @@ nav::after {
 }
 .footer-btm {
   width: 100%;
-  border-top: solid 1px #ccc;
+  border-top: solid 1px #1E1E1E;
 }
 
 .footer-btm-sec {
@@ -1001,7 +1014,7 @@ svg text {
 /* fixed social*/
 #fixed-social {
   position: fixed;
-  bottom: 130px;
+  bottom: 90px;
   right: 20px;
   z-index: 99;
 }
@@ -1055,8 +1068,31 @@ svg text {
 .fixed-social .fa, .far, .fas, .fab {
   font-size: 20px;
 }
+.mob-btn {
+  display: none;
+}
+.btndn {
+  position: relative;
+  background-color: #b0de7c;
+  z-index: 1;
+  width: 100%;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 11px 21px;
+  border-radius: 3px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: solid #b0de7c;
+}
 
-/*end fixed social*/
+.footer-bank {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
 
 /****
       **********
@@ -1110,7 +1146,8 @@ svg text {
   }
 
   p {
-    text-align: justify !important;
+    text-align: left !important;
+    line-height: 25px;
   }
   .award {
     display: block;
@@ -1186,5 +1223,17 @@ svg text {
 }
 .history-left {
   display: none;
+}
+.d-top p {
+  text-align: center !important;
+}
+.d-top {
+  padding-bottom: 10px;
+}
+.story1 {
+  padding: 10px 0;
+}
+.mob-btn {
+  display: block;
 }
 }
