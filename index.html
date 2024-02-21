@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8">
+    <title>:: Sai Gramam ::</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sai Gramam">
+    <meta name="author" content="">
+    <!-- ======================= css =========================== -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ======================= js Files =========================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  
+
+  <body>
+    <div id="wrapper">
+      <header class="black">
+        <div class="top-header">
+          <div class="container-fluid">
+            <div class="right">
+              <div class="text">
+                <i class="fab fa-facebook-f"></i>
+                <span> saigram@gmail.com </span>
+              </div>
+
+              <div class="text">
+                <i class="fas fa-phone"></i>
+                <span> saigram@gmail.com </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav id="navbar">
+          <div class="container-fluid top-head">
+            <div class="top-left">
+              <h1 class="logo">
+                <a href="index.html"> <img src="assets/images/logo.png" /></a>
+              </h1>
+            </div>
+            <div class="top-right">
+              <ul class="site-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sai gram</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Awards</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+
+              <div class="right-cont">
+                <button class="btng">Donate now</button>
+              </div>
+            </div>
+
+            <div class="menu-toggle">
+              <div class="hamburger"></div>
+            </div>
+          </div>
+        </nav>
+        <script type="text/javascript">
+          $(".menu-toggle").click(function () {
+            $(".site-nav").toggleClass("site-nav--open", 500);
+            $(this).toggleClass("open");
+          });
+        </script>
+        <script type="text/javascript">
+          window.onscroll = function () {
+            myFunction();
+          };
+          var navbar = document.getElementById("navbar");
+          var sticky = navbar.offsetTop;
+          function myFunction() {
+            if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky");
+            } else {
+              navbar.classList.remove("sticky");
+            }
+          }
+        </script>
+        <script type="text/javascript">
+          $(document).ready(function () {
+            $(window).scroll(function () {
+              var scroll = $(window).scrollTop();
+              if (scroll > 300) {
+                $(".black").css({ background: "white", color: "black" });
+              } else {
+                $(".black").css({ background: "", color: "" });
+              }
+            });
+          });
+        </script>
+      </header>
+
+      <div id="banner">
+        <div class="container">
+          <div class="content" >
+            <h1 data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1500">we are here to help you</h1>
+            <h5 data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1500">a universe of Benevolence</h5>
+            <button class="bannerbtn" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000">Donate Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="fixed-social">
+     
+     
+        <div>
+          <a href="#" class="fixed-gplus" target="_blank"><i class="far fa-envelope"></i> </a>
+        </div>
+        <div>
+          <a href="#" class="fixed-linkedin" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div>
+          <a href="#" class="fixed-instagrem" target="_blank"><i class="fas fa-phone"></i> </a>
+        </div>
+      
+      </div>
+      <section class="section">
+
+        <div class="history-left">
+          <div class="vertical-text">
+            <h1>Our History
+            </h1>
+          </div>
+        </div>
+        <div class="container">
+          <div class="d-top">
+            <h1>our history</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-9">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <div class="story"><img src="assets/images/img9.png"></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="story1">
+                    <div class="d-center">  <h1>1942</h1>
+                  
+                    </div>
+                    <div class="pushed-content">
+                      <h5>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Totam eos deleniti ea,
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, eos. Aspernatur, excepturi dolore nesciunt eum ut
+                        in ullam eveniet qui alias possimus laudantium nihil
+                        itaque at voluptatibus temporibus eos. Nostrum. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestiae quae perspiciatis voluptatem corporis optio!
+                        Explicabo veniam quis numquam earum, nostrum saepe
+                        expedita neque nobis rem deserunt ea accusamus voluptatem
+                        nulla.
+                      </p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="year-calener">
+                <div class="clrd">
+                  <a href="#">1965</a>
+                  <div class="line"></div>
+                </div>
+                <div class="clrd">
+                  <a href="#">1970</a>
+                  <div class="line"></div>
+                </div>
+                <div class="clrd">
+                  <a href="#">1973</a>
+                  <div class="line"></div>
+                </div>
+                <div class="clrd">
+                  <a href="#">1984</a>
+                  <div class="line"></div>
+                </div>
+                <div class="clrd">
+                  <a href="#">2000</a>
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+      <!-- <section class="section">
+        <div class="history">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="history-left">
+                <div class="vertical-text">
+                  <h1>Vertical Text</h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="history-content">
+                <div class="d-top">
+                  <h1>our history</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+
+                <div class="d-center"><h1>1947</h1></div>
+
+                <div class="d-botm">
+                  <div class="pushed-content">
+                    <h5>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Totam eos deleniti ea,
+                    </h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Animi, eos. Aspernatur, excepturi dolore nesciunt eum ut
+                      in ullam eveniet qui alias possimus laudantium nihil
+                      itaque at voluptatibus temporibus eos. Nostrum. Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit.
+                      Molestiae quae perspiciatis voluptatem corporis optio!
+                      Explicabo veniam quis numquam earum, nostrum saepe
+                      expedita neque nobis rem deserunt ea accusamus voluptatem
+                      nulla.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="year-calener">
+                <div class="clrd">
+                  <a href="#">1965</a>
+                  <div class="line"></div>
+                </div>
+                <div class="clrd">
+                  <a href="#">1970</a>
+                  <div class="line"></div>
+                </div>
+                <div class="clrd">
+                  <a href="#">1973</a>
+                  <div class="line"></div>
+                </div>
+                <div class="clrd">
+                  <a href="#">1984</a>
+                  <div class="line"></div>
+                </div>
+                <div class="clrd">
+                  <a href="#">2000</a>
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+    
+
+      <section class="section yello-bg">
+        <div class="container d-flex-main padding-30">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="founder">
+                <h1>founder message</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur
+                  fortior sit, si illud, quod tute concedis, asperum et vix
+                  ferendum putabit? Sed utrum hortandus es nobis, Luci, inquit,
+                  an etiam tua sponte propensus es? Neque enim civitas in
+                  seditione beata esse potest nec in discordia dominorum domus;
+                  Omnes, qui non sint sapientes, aeque miseros esse, sapientes
+                  omnes summe beatos, recte facta omnia aequalia, omnia peccata
+                  paria; Nam cum Academicis incerta luctatio est, qui nihil
+                  affirmant et quasi desperata cognitione certi id sequi volunt,
+                  quodcumque veri simile videatur.
+                </p>
+                <div class="foud-p">
+                  <h6 class="mb-0">K M Anada Kumar</h6>
+                  <p>chairman</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 fonder-dflex aos-init aos-animate" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
+              <img
+                src="assets/images/anandakumar.png"
+                class="messege-round"
+                alt="anandakumar"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container-fluid">
+          <div class="bg-blue">
+            <div class="about">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="about-img "  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" class="aos-init aos-animate">
+                    <img src="assets/images/img9.jpg" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-dis">
+                    <h1>Navajeevanam</h1>
+                    <div class="paragraph">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Temporibus eveniet repellat in est culpa eaque
+                        cumque aliquam consequatur rem, unde laborum quae
+                        reiciendis? Nesciunt, eius excepturi sint inventore
+                        eveniet ratione! Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Hic amet vero adipisci quaerat ipsam
+                        impedit illum ab, necessitatibus asperiores magni
+                        repellat cum similique ratione quibusdam est minima
+                        omnis qui dolores.
+                      </p>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ducimus in obcaecati tempora, at quod eligendi?
+                        Veniam nostrum harum nisi dolore nemo dicta sint ipsum
+                        quos? Illum dicta aliquam totam facilis.
+                      </p>
+                    </div>
+                    <a href="">Read more</a>
+                    <div class="ab-number">
+                      <div class="ab-number-div">
+                        <h1>15</h1>
+                        <p>year</p>
+                      </div>
+                      <div class="ab-number-div">
+                        <h1>15</h1>
+                        <p>free dialysis <br />units</p>
+                      </div>
+                      <div class="ab-number-div">
+                        <h1>20</h1>
+                        <p>Districts</p>
+                      </div>
+                      <div class="ab-number-div">
+                        <h1>5 <span>Lakh+</span></h1>
+                        <p>year</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section bg-green">
+        <div class="container-fluid">
+          <div class="pr-sec">
+            <h1>Other projects</h1>
+            <span><a href="#"> View all</a></span>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="image-wrap"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="3000" class="aos-init aos-animate">
+                <img src="assets/images/img6.jpg" alt="images" />
+
+                <div class="image-wrap-text">
+                  <h2>Sathya Sai Academy of Management and Excellence</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga id provident rem consectetur ut atque laudantium magni
+                    soluta autem modi, neque eaque doloribus aliquid harum
+                    repudiandae nam commodi earum necessitatibus?
+                  </p>
+                  <a href="#">Read More</a>
+                </div>
+                <div class="yellow-btn">
+                  <i class="fas fa-map-marker-alt"></i> kochi
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="image-wrap" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2500" class="aos-init aos-animate">
+                <img src="assets/images/img5.jpg" alt="images" />
+
+                <div class="image-wrap-text">
+                  <h2>Sathya Sai Arts and College</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga id provident rem consectetur ut atque laudantium magni
+                    soluta autem modi, neque eaque doloribus aliquid harum
+                    repudiandae nam commodi earum necessitatibus?
+                  </p>
+                  <a href="#">Read More</a>
+                </div>
+                <div class="yellow-btn">
+                  <i class="fas fa-map-marker-alt"></i> Thiruvananthapuram
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="image-wrap" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" class="aos-init aos-animate">
+                <img src="assets/images/img8.png" alt="images" />
+
+                <div class="image-wrap-text">
+                  <h2>Social Tourism</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga id provident rem consectetur ut atque laudantium magni
+                    soluta autem modi, neque eaque doloribus aliquid harum
+                    repudiandae nam commodi earum necessitatibus?
+                  </p>
+                  <a href="#">Read More</a>
+                </div>
+                <div class="yellow-btn">
+                  <i class="fas fa-map-marker-alt"></i> Kochi
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section padding-30">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="bg-img">
+                <div class="bg-img-flex">
+                  <h1>Give to make a <br />difference</h1>
+                  <h4>Donate for better world</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat quia fugit, perspiciatis magni earum harum nisi
+                    minus, adipisci amet eos in laudantium nobis, rem architecto
+                    quisquam distinctio necessitatibus asperiores ipsum?
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nulla cumque, dolore molestiae enim odio nam!
+                    Consequuntur amet fugiat maxime, officia quia omnis, vitae,
+                    est magnam labore aspernatur autem. Harum!
+                  </p>
+                  <button
+                    class="bannerbtn aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="4000"
+                  >
+                    Donate Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bg-img bg-img2">
+                <div class="bg-img-flex">
+                  <h1>Give to make a <br />difference</h1>
+                  <h4>Donate for better world</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat quia fugit, perspiciatis magni earum harum nisi
+                    minus, adipisci amet eos in laudantium nobis, rem architecto
+                    quisquam distinctio necessitatibus asperiores ipsum?
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nulla cumque, dolore molestiae enim odio nam!
+                    Consequuntur amet fugiat maxime, officia quia omnis, vitae,
+                    est magnam labore aspernatur autem. Harum!
+                  </p>
+                  <button
+                    class="btng aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="4000"
+                  >
+                    Join us
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial padding-30">
+            <div class="pr-sec">
+              <h1>Testimonials</h1>
+              <span><a href="#"> View all</a></span>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="testimonial-imgages">
+                  <div class="test-sec">
+                    <img src="assets/images/gavaskar.webp" />
+                    <div class="round">
+                      <img src="assets/images/youtube.png" />
+                    </div>
+                  </div>
+
+                  <h3>sunil gavaskar</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia dolorem beatae hic voluptatum quasi et dolorum quos .
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-imgages">
+                  <div class="test-sec">
+                    <img src="assets/images/apj.png" />
+                    <div class="round">
+                      <img src="assets/images/youtube.png" />
+                    </div>
+                  </div>
+
+                  <h3>A. P. J. Abdul Kalam</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia dolorem beatae hic voluptatum quasi et dolorum quos .
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="testimonial-imgages">
+
+                  <div class="test-sec">
+                    <img src="assets/images/krishna.jpg" />
+                    <div class="round">
+                      <img src="assets/images/youtube.png" />
+                    </div>
+                  </div>
+
+                </div>
+
+                <h3>Justice V. R. Krishna Iyer</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  dolorem beatae hic voluptatum quasi et dolorum quos .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="padding-30 purple-bg">
+        <div class="container-fluid">
+          <div class="award">
+            <div class="award-left">
+              <div class="">
+                <h2>Award and achivments</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btng aos-init aos-animate">Viwew All</button>
+              </div>
+            </div>
+
+            <div class="award-right">
+              <div class="award-wrap">
+                <img src="assets/images/logo2.png" />
+                <p>
+                  asia book of records for the maximum free dialysis programs
+                  coducted by an NGO
+                </p>
+                <a href="#"> View all</a>
+              </div>
+              <div class="award-wrap">
+                <img src="assets/images/logo2.png" />
+                <p>
+                  asia book of records for the maximum free dialysis programs
+                  coducted by an NGO
+                </p>
+                <a href="#"> View all</a>
+              </div>
+              <div class="award-wrap">
+                <img src="assets/images/logo2.png" />
+                <p>
+                  asia book of records for the maximum free dialysis programs
+                  coducted by an NGO
+                </p>
+                <a href="#"> View all</a>
+              </div>
+              <div class="award-wrap">
+                <img src="assets/images/logo2.png" />
+                <p>
+                  asia book of records for the maximum free dialysis programs
+                  coducted by an NGO
+                </p>
+                <a href="#"> View all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer padding-30 " >
+        <div class="container-fluid " >
+          <div class="row padding-30">
+            <div class="col-md-4">
+              <h5>Menu</h5>
+
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">home </a></li>
+                  <li><a href="#">sai gramam</a></li>
+                  <li><a href="#">projects</a></li>
+                  <li><a href="#">awards</a></li>
+                  <li><a href="#">news</a></li>
+                  <li><a href="#">gallery</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+
+                <ul>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">help us</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">services</a></li>
+                  <li><a href="#">magazines</a></li>
+                  <li><a href="#">Volunteering</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h5>Accound Details</h5>
+              <div class="bank-logo">
+                <div class="bank-logo-wrap">
+                  <div class="bank-logo-img">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="bank-log-main">
+                          <img src="assets/images/sbi.jpg" />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="bank-log-main">
+                          <img src="assets/images/sib.png" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="bank-log-main">
+                          <img src="assets/images/icici.png" />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="bank-log-main">
+                          <img src="assets/images/fedaral.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="social">
+                    <h5>social</h5>
+                    <div class="social-icon">
+                      <a href="#" target="black_blend"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <h5>get in touch with us</h5>
+              <div class="footer-address">
+                <div class="footer-address-wrap">
+                  <h6>sai gramam</h6>
+                  <div class="ad">
+                    <p>Oorupika.P.O</p>
+                    <p>Thonnakkal, Attingal,</p>
+                    <p>Thiruvanathapuram -695 104</p>
+                  </div>
+                  <div class="ad">
+                    <p>Email :</p>
+                    <p>saigramam@gmail.com</p>
+                  </div>
+
+                  <div class="ad">
+                    <p>Phone :</p>
+                    <p>9946480139 | 9946480139</p>
+                  </div>
+                </div>
+
+                <div class="footer-address-wrap">
+                  <h6>Sri Sathya Sai Orphanage Trust - Kerala Head Office</h6>
+                  <div class="ad">
+                    <p>Tc 9/1108, Ajith Buildings,</p>
+                    <p>above ICICI Bank, Sasthamangalam,</p>
+                    <p>Thiruvanathapuram -695 104</p>
+                  </div>
+                  <div class="ad">
+                    <p>Email :</p>
+                    <p>saigramam@gmail.com</p>
+                  </div>
+
+                  <div class="ad">
+                    <p>Phone :</p>
+                    <p>0471-2721422 | 0471-2723522</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="footer-btm">
+              <div class="footer-btm-sec">
+                <h6>Copyright © 2021. All Right Reserved.</h6>
+                <h6>Designed by Inter Smart</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <a id="button"><i class="fas fa-arrow-up"></i></a>
+  </body>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <script type="text/javascript">
+    var btn = $("#button");
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass("show");
+      } else {
+        btn.removeClass("show");
+      }
+    });
+    btn.on("click", function (e) {
+      e.preventDefault();
+      $("html, body").animate({ scrollTop: 0 }, "300");
+    });
+  </script>
+</html>
